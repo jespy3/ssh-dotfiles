@@ -9,3 +9,7 @@ source "$XDG_CONFIG_HOME/bash/aliases.sh"
 # Set up prompt
 PS1='\[\e[1;90m\]\u\[\e[1;34m\]@\h \[\e[1;36m\]\w \[\e[1;37m\]\$\[\e[0m\] '
 
+# Set vim as default text editor
+export EDITOR=vim
+export VISUAL=vim
+export TERM=xterm-256color # use a standard terminal
